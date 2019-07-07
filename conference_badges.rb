@@ -2,6 +2,14 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
+def batch_badge_creator(array)
+  #return an array of badge messages
+  array.each do |i|
+    #create an array of badge messages
+    
+  end
+end
+
 def assign_rooms(array)
   #list of  speaker and assign each to a room
   room = 1
