@@ -8,14 +8,9 @@ def batch_badge_creator(array)
   array.each do |i|
     #create an array of badge messages
     #create badge message
-    
-    badges << badge_maker(i)
-    
     #store each message in an array
-    
-    
+    badges << badge_maker(i)
   end
-  
   return badges
 end
 
