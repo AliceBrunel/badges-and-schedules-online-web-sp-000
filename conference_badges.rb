@@ -6,6 +6,7 @@ end
 def assign_rooms(array)
   #list of  speaker and assign each to a room 
   array.each do 
-    #do something
+    #assign each to a room 1-7 and return a list assignment with a string
+    
   end
 end
