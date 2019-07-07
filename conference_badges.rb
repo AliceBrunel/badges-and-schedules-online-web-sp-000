@@ -31,11 +31,11 @@ def printer(array)
   #print out batch badge and assign room messages
   a = batch_badge_creator(array)
   b = assign_rooms(array)
+  
   a.each do |i|
-  puts i 
+    puts i 
   end
   b.each do |i|
-  puts i 
+    puts i 
   end
-
 end
