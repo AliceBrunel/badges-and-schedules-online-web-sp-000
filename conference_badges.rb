@@ -4,10 +4,19 @@ end
 
 def batch_badge_creator(array)
   #return an array of badge messages
+  badges = []
   array.each do |i|
     #create an array of badge messages
+    #create badge message
+    
+    badges << badge_maker(i)
+    
+    #store each message in an array
+    
     
   end
+  
+  return badges
 end
 
 def assign_rooms(array)
