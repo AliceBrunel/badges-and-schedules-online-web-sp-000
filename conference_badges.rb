@@ -17,9 +17,12 @@ end
 def assign_rooms(array)
   #list of  speaker and assign each to a room
   room = 1
+  message = []
   array.each do |i|
     #assign each to a room 1-7 and return a list assignment with a string
-    puts "Hello, #{i}! You'll be assigned to room #{room}!"
+    message << "Hello, #{i}! You'll be assigned to room #{room}!"
     room += 1
   end
+  #store a message in a array
+  message
 end
