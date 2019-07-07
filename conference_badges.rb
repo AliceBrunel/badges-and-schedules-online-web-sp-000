@@ -26,3 +26,9 @@ def assign_rooms(array)
   #store a message in a array
   message
 end
+
+def printer(array)
+  #print out batch badge and assign room messages
+  batch_badge_creator(array)
+assign_rooms(array)
+end
