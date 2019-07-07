@@ -29,6 +29,6 @@ end
 
 def printer(array)
   #print out batch badge and assign room messages
-  batch_badge_creator(array)
-assign_rooms(array)
+  puts batch_badge_creator(array)
+  puts assign_rooms(array)
 end
